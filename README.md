@@ -147,12 +147,9 @@ $ rspec-kickstarter -r app/controllers/root_controller.rb
 Output for scaffold:
 
 ```ruby
-# -*- encoding: utf-8 -*-
-
 require 'spec_helper'
 
 describe CommentsController do
-
   # TODO auto-generated
   describe 'GET index' do
     it 'works' do
@@ -208,7 +205,6 @@ describe CommentsController do
       expect(response.status).to eq(200)
     end
   end
-
 end
 ```
 
